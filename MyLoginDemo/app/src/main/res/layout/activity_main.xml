@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="32sp"
+            android:textColor="@color/orange"
+            android:text="Welcome To Arangne"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0ff"
+            android:textStyle="italic"
+            android:layout_gravity="center"
+            android:text="Ngô Nhật Nguyên - 21115053120229"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue convallis dictum. Curabitur faucibus leo orci, lacinia euismod nulla pulvinar sagittis."
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"/>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <Button
+                android:layout_margin="10dp"
+                android:textColor="#fff"
+                android:background="@drawable/buttonstyleorange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="LEARN MORE"/>
+            <Button
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="JOIN THE CLUB"
+                android:background="@drawable/buttonstyle2"
+                android:textColor="#fff"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <EditText
+            android:drawablePadding="10dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:hint="Username" />
+        <EditText
+            android:drawablePadding="10dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:hint="Password"
+            android:inputType="textPassword" />
+        <Button
+            android:layout_marginTop="40dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstyleorange"
+            android:drawableRight="@drawable/baseline_login_24"
+            android:text="Login In"
+            android:textColor="#fff"/>
+    </LinearLayout>
+</LinearLayout>
