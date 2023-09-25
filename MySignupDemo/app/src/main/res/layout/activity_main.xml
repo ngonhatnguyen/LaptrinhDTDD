@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textStyle="italic"
+            android:layout_gravity="center"
+            android:text="Ngô Nhật Nguyên - 21115053120229"
+            android:textSize="18sp"
+            android:layout_marginTop="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="32sp"
+            android:textColor="@color/orange"
+            android:text="Sign Up"
+            android:layout_marginBottom="25dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:drawablePadding="10dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:hint="Username" />
+        <EditText
+            android:drawablePadding="10dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/baseline_phone_android_24"
+            android:hint="Phone Number"
+            android:inputType="phone" />
+        <EditText
+            android:drawablePadding="10dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/baseline_transgender_24"
+            android:drawableRight="@drawable/baseline_expand_more_24"
+            android:hint="Gender" />
+        <EditText
+            android:drawablePadding="10dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:hint="Password"
+            android:inputType="textPassword" />
+        <EditText
+            android:drawablePadding="10dp"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:hint="Confirm Password"
+            android:inputType="textPassword" />
+        <Button
+            android:layout_marginTop="40dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstyleorange"
+            android:drawableRight="@drawable/baseline_how_to_reg_24"
+            android:text="Sign Up"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+</LinearLayout>
